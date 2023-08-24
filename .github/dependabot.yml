@@ -9,7 +9,8 @@ updates:
     directory: "/manifests" # Location of package manifests
     schedule:
       interval: "daily"
-    "dependency-type": "production"
+    allow:
+      - dependency-type: "production"
     groups:
       prod-dependencies:
         patterns:
@@ -18,7 +19,8 @@ updates:
     directory: "/manifests" # Location of package manifests
     schedule:
       interval: "daily"
-    "dependency-type": "development"
+    allow:
+      - dependency-type: "development"
     groups:
       dev-dependencies:
         patterns:
