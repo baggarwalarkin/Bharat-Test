@@ -9,6 +9,7 @@ updates:
     directory: "/manifests" # Location of package manifests
     schedule:
       interval: "daily"
+      time: "18:42"
     allow:
       - dependency-type: "production"
     groups:
@@ -19,6 +20,7 @@ updates:
     directory: "/manifests" # Location of package manifests
     schedule:
       interval: "daily"
+      time: "18:42"
     allow:
       - dependency-type: "development"
     groups:
