@@ -9,7 +9,7 @@ updates:
     directory: "/prod-manifests" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "18:53"
+      time: "19:18"
       timezone: "Asia/Kolkata"
     allow:
       - dependency-type: "production"
@@ -21,7 +21,7 @@ updates:
     directory: "/dev-manifests" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "18:53"
+      time: "19:18"
       timezone: "Asia/Kolkata"
     allow:
       - dependency-type: "development"
