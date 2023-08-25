@@ -9,7 +9,7 @@ updates:
     directory: "/prod-manifests" # Location of package manifests
     schedule:
       interval: "daily"
-      time: "19:18"
+      time: "11:37"
       timezone: "Asia/Kolkata"
     allow:
       - dependency-type: "production"
